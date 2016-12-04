@@ -11,11 +11,16 @@ package testeteste;
  */
 public class Testeteste {
 
+    private static Testeteste testando;
+
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        //teste diferença
+        testando = new Testeteste();
+        
     }
     
 }
